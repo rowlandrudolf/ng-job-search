@@ -1,0 +1,30 @@
+.wrap {
+    width: 960px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    border: none;
+    margin: 2rem 0;
+}
+
+nav a {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 4px solid #333;
+    border-radius: 0;
+}
+
+nav a.active {
+    background-color: #222;
+    color: aqua;
+    border-color: aqua;
+}
